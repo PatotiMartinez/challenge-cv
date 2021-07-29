@@ -1,0 +1,19 @@
+.navbar{
+    background-color: #11151c;
+    color: #cecccc;
+    text-decoration: none;
+}
+.navbar-brand{
+    font-size: 2rem;
+    color: #cecccc; 
+    text-decoration: none;   
+}
+.fotoPerfil{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+}
+.fotoPerfil:hover{
+    width: 4.1rem;
+    height: 4.1rem;
+}
