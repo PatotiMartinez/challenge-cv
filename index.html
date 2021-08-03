@@ -11,7 +11,7 @@
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <title>CV | Patricia Martinez</title>
 </head>
-<body>
+<body class="cv">
   <!-- inicio Navbar -->
   <nav class=" navbar navbar-expand-lg sticky-top ">
     <div class="container-fluid">
@@ -21,13 +21,13 @@
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="navbar-brand nav-link active" aria-current="page" href="#">Opcional</a>
+      <div class="collapse navbar-collapse " id="navbarNav">
+        <ul class="navbar-nav ">
+          <li class="nav-item ">
+            <a class="navbar-brand nav-link active " aria-current="page" href="#">Opcional</a>
           </li>
           <li class="nav-item">
-            <a class=" navbar-brand nav-link" href="#">About</a>
+            <a class=" navbar-brand nav-link" href="#about">About</a>
           </li>
           <li class="nav-item">
             <a class=" navbar-brand nav-link" href="#">Educación y Experiencia</a>
@@ -40,46 +40,83 @@
     </div>
   </nav>
   <!-- fin Navbar -->
+  <hr class="hr">
   <!-- inicio About -->
-  <!-- columna 1 de 2 about-->
-  <div class="container-fluid d-flex align-items-center justify-content-center">
-    <div class="row">
-      <div class="col-6">
+  <div id="about" class="container-fluid d-flex align-items-center justify-content-center">
+    <!-- columna 1 de 2 about-->
+    <div class="row d-flex align-items-center justify-content-center">
+      <div class="about-descripcion col-6">
         <img class="perfilAbout" src="/img/patricia.jpg" alt="fotoPerfil">
         <h4>Patricia Martinez</h4>
         <span>Soy una dev entusiasta, me gustan los desafíos y trabajar en equipo,
           mis habilidades son la investigación, y el análisis, mis hobbies son el diseño y la
-          fotografía </span>
+          fotografía. </span>
       </div>
     </div>
-  </div>  
-      <!-- columna 2 de 2 about -->
+    <!-- columna 2 de 2 about -->
       <div class="container-fluid d-flex align-items-center justify-content-center">
-        <div class="row">
-          <div class="col-6">
-            <div class="progress">
-              <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">HTML | 90%</div>
-            </div>
-            <div class="progress">
-              <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">CSS | 75%</div>
-            </div>
-            <div class="progress">
-              <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">Flexbox | 70%</div>
-            </div>
-            <div class="progress">
-              <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">Bootstrap | 70%</div>
-            </div>
-            <div class="progress">
-              <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">Scrum | 75%</div>
-            </div>
-            <div class="progress">
-              <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">JS |25%</div>
-            </div>
+        <div class="row d-flex align-items-center justify-content-center">
+          <div class="progress">
+            <div class="bar progress-bar progress-bar-striped text-start" role="progressbar" style="width:95%;">HTML | 95% </div>
+          </div>
+          <div class="progress">
+            <div class="progress-bar progress-bar-striped text-start" role="progressbar" style="width:75%;">CSS | 75%</div>
+          </div>
+          <div class="progress">
+            <div class="progress-bar progress-bar-striped text-start" role="progressbar" style="width:70%;">Flexbox | 70%</div>
+          </div>
+          <div class="progress">
+            <div class="progress-bar progress-bar-striped text-start" role="progressbar" style="width:70%;">Bootstrap | 70%</div>
+          </div>
+          <div class="progress">
+            <div class="progress-bar progress-bar-striped text-start" role="progressbar" style="width:75%;">Scrum | 75%</div>
+          </div>
+          <div class="progress">
+            <div class="progress-bar progress-bar-striped text-start" role="progressbar" style="width:25%;">Java Script |25%</div>
           </div>
         </div>
       </div>  
-  
+    </div>
+  </div>  
   <!-- fin About -->
+  <hr class="hr">
+  <!-- inicio educacion y experiencia -->
+  <div class="div container-fluid d-flex align-items-center justify-content-center">
+    <div class="row d-flex align-items-center justify-content-center">
+      <h1 class="tituloedu-exp">Educación</h1>
+      <ul class="lista">
+        <li>
+          <h4>Rollingcode School</h4>
+          <h5>Tucumán | Argentina | Agosto 2021</h5>
+          <p> Full stack web developer, Html, CSS, Flexbox, <br> 
+            Bootstrap, Git, Github, Js, React, Mongodb, Nodejs.</p>
+        </li>
+        <li>
+          <h4>INI Computación</h4>
+          <h5>Tucumán | Argentina | Agosto 2010</h5>
+          <p>Diseño Gráfico, dibujo vectorial, Ilustrator, Corel Draw <br> 
+            Edición de imágenes, Photoshop.</p>
+        </li>
+        <li>
+          <h4>UNT - Ciencias Económicas - CPN</h4>
+          <h5>Tucumán | Argentina | Agosto 2015</h5>
+          <p>Diseñar, implementar y dirigir sist. de inf. contable, <br>
+            control de gestión y auditoría para org. (Curso Incompleto);</p>
+        </li>
+      </ul>
+   </div>
+    <div class="row d-flex align-items-center justify-content-center ">
+      <h1 class="tituloedu-exp">Experiencia</h1>
+      <ul class="lista">
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </div>
+
+  </div>
+  <!-- inicio educacion y experiencia -->
+  <hr class="hr">
 
 
 

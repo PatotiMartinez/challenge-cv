@@ -1,7 +1,19 @@
+.cv{
+    background-color: #11151c;  
+}
+.hr{
+    color: turquoise;
+    size: 3px;
+}
 .navbar{
     background-color: #11151c;
     color: #cecccc;
     text-decoration: none;
+   
+}
+.navbar-nav li a {
+    text-decoration: none;
+    color: #cecccc;
 }
 .navbar-brand{
     font-size: 2rem;
@@ -20,4 +32,19 @@
 .perfilAbout{
     width: 8rem;
     height: 8rem;
+    clip-path: polygon(25% 0, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+}
+.about-descripcion{
+    font-size: 1rem;
+    color: #cecccc;
+    text-align: center;
+}
+.progress bar {
+    width: 100%;
+    background-color: #11151c;
+    text-align: center;
+}
+.tituloedu-exp{
+
+color: #cecccc;
 }
