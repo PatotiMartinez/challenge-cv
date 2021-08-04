@@ -39,11 +39,113 @@
     color: #cecccc;
     text-align: center;
 }
-.progress bar {
-    width: 100%;
-    background-color: #11151c;
-    text-align: center;
+.skills-bar{
+    width: 600px;
+    background: #85d69a;
+    border-radius: 15px;
+    padding: 25px 30px;
+    box-shadow: 5px 5px 10px #11151c;
 }
+.skills-bar .bar{
+    margin: 20px 0;
+
+}
+.skills-bar .bar:first-child{
+    margin-top: 0px;
+}
+.skills-bar .bar .info{
+    margin-bottom: 5px;
+
+}
+.skills-bar .bar .info span{
+font-size: 17px;
+font-weight: 500;
+}
+.skills-bar .bar .progress-line{
+    position: relative;
+    height: 10px;
+    width: 100%;
+    background: #11151c;
+    box-shadow: inset 0px 1px 1px #11151c;
+
+}
+.bar .progress-line span{
+    width: 80%;
+    height: 100%;
+    background: #cecccc;
+    position: absolute;
+    border-radius: 10p;
+}
+.progress-line.html span{
+    width:95% ;
+}
+.progress-line.css span{
+    width:80% ;
+}
+
+.progress-line.flexbox span{
+    width:80%;
+}
+
+.progress-line.bootstrap span{
+    width:75% ;
+}
+
+.progress-line.scrum span{
+    width:75% ;
+}
+
+.progress-line.java span{
+    width:25% ;
+}
+.bar .progress-line span::before{
+    position: absolute;
+    content: "";
+    right: 0;
+    top: -10px;
+    height: 0;
+    width: 0;
+    border: 7px solid transparent;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    border-top-color: #000;
+}
+.bar .progress-line span::after{
+    position: absolute;
+    content: "80%";
+    right: 0;
+    top: -30px;
+    color: #cecccc;
+    font-size: 12px;
+    font-weight: 500;
+    background: #000;
+    padding: 1px 8px;
+    border-radius: 3px;
+}
+.progress-line.html span::after{
+    content:"95%" ;
+}
+.progress-line.css span::after{
+    content:"80%" ;
+}
+
+.progress-line.flexbox span::after{
+    content:"80%" ;
+}
+
+.progress-line.bootstrap span::after{
+    content:"75%" ;
+}
+
+.progress-line.scrum span::after{
+    content:"75%" ;
+}
+
+.progress-line.java span::after{
+    content:"25%" ;
+}
+
+
 .tituloedu-exp{
 
 color: #cecccc;
