@@ -9,7 +9,7 @@
     background-color: #11151c;
     color: #cecccc;
     text-decoration: none;
-   
+    box-shadow: 1px 1px 3px #ccff66
 }
 .navbar-nav li a {
     text-decoration: none;
@@ -24,6 +24,7 @@
     width: 4rem;
     height: 4rem;
     border-radius: 50%;
+    box-shadow: 1px 1px 3px #cecccc
 }
 .fotoPerfil:hover{
     width: 4.1rem;
@@ -41,13 +42,23 @@
 }
 .skills-bar{
     width: 600px;
-    background: #85d69a;
+    height: 30px;
+    background: #ccff66;
+    filter: grayscale(0.2);
     border-radius: 15px;
     padding: 25px 30px;
-    box-shadow: 5px 5px 10px #11151c;
+    box-shadow: 5px 5px 10px #cecccc;
+    margin-bottom: 15px;
+    margin-top: 30px;
+}
+.skills-bar:hover{
+    background: #ccff66;
+    filter: grayscale(0); 
+    filter: brightness(1);
+    border: #f1e8b8 2px solid;
 }
 .skills-bar .bar{
-    margin: 20px 0;
+    margin: 30px 0;
 
 }
 .skills-bar .bar:first-child{
@@ -63,18 +74,19 @@ font-weight: 500;
 }
 .skills-bar .bar .progress-line{
     position: relative;
-    height: 10px;
+    height: 20px;
     width: 100%;
-    background: #11151c;
-    box-shadow: inset 0px 1px 1px #11151c;
-
+    display: block;
+    top: -40px;
 }
 .bar .progress-line span{
     width: 80%;
     height: 100%;
     background: #cecccc;
     position: absolute;
-    border-radius: 10p;
+    border-radius: 15px;
+    display: block;
+    top: -40%;
 }
 .progress-line.html span{
     width:95% ;
@@ -82,45 +94,30 @@ font-weight: 500;
 .progress-line.css span{
     width:80% ;
 }
-
 .progress-line.flexbox span{
     width:80%;
 }
-
 .progress-line.bootstrap span{
     width:75% ;
 }
-
 .progress-line.scrum span{
     width:75% ;
 }
-
-.progress-line.java span{
+.progress-line.Java span{
     width:25% ;
 }
-.bar .progress-line span::before{
-    position: absolute;
-    content: "";
-    right: 0;
-    top: -10px;
-    height: 0;
-    width: 0;
-    border: 7px solid transparent;
-    border-bottom-width: 0px;
-    border-right-width: 0px;
-    border-top-color: #000;
-}
+
 .bar .progress-line span::after{
     position: absolute;
     content: "80%";
-    right: 0;
-    top: -30px;
-    color: #cecccc;
+    right: -1%;
+    top: -0px;
+    color: #11151c;
     font-size: 12px;
-    font-weight: 500;
-    background: #000;
+    font-weight: bold;
+    background: #cecccc;
     padding: 1px 8px;
-    border-radius: 3px;
+    border-radius: 15px;
 }
 .progress-line.html span::after{
     content:"95%" ;
@@ -141,11 +138,38 @@ font-weight: 500;
     content:"75%" ;
 }
 
-.progress-line.java span::after{
+.progress-line.Java span::after{
     content:"25%" ;
 }
+.eduexp .lista {
+    list-style: none;
+    border-left: 2px solid #ccff66;
+    padding-left: 10px;
+    margin-left: 10px;
+}
+.eduexp .lista li{
+    position: relative;
+    display: block;
+    color: #cecccc;
+    padding: 15px 10px;
+    transition: 3s ease all;
 
-
+}
+.eduexp .lista li:hover{
+    color: #f1e8b8;
+}
+.eduexp .lista li::before{
+content: " ";
+display: block;
+width: 12px;
+height: 12px;
+background: #ccff66;
+border: 2px solid #040faf;
+position: absolute;
+left: -17px;
+top: 19%;
+transform: rotate(45deg);
+}
 .tituloedu-exp{
 
 color: #cecccc;
