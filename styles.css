@@ -1,177 +1,293 @@
-.cv{
-    background-color: #11151c;  
+.cv {
+  background-color: #11151c;
 }
-.hr{
-    color: turquoise;
-    size: 3px;
+.hr {
+  color: turquoise;
+  size: 3px;
 }
-.navbar{
-    background-color: #11151c;
-    color: #cecccc;
-    text-decoration: none;
-    box-shadow: 1px 1px 3px #ccff66
+.navbar {
+  background-color: #11151c;
+  color: #cecccc;
+  text-decoration: none;
+  box-shadow: 1px 1px 3px #ccff66;
 }
 .navbar-nav li a {
-    text-decoration: none;
-    color: #cecccc;
+  text-decoration: none;
+  color: #cecccc;
 }
-.navbar-brand{
-    font-size: 2rem;
-    color: #cecccc; 
-    text-decoration: none;   
+.navbar-brand {
+  font-size: 2rem;
+  color: #cecccc;
+  text-decoration: none;
 }
-.fotoPerfil{
-    width: 4rem;
-    height: 4rem;
-    border-radius: 50%;
-    box-shadow: 1px 1px 3px #cecccc
+.fotoPerfil {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  box-shadow: 1px 1px 3px #cecccc;
 }
-.fotoPerfil:hover{
-    width: 4.1rem;
-    height: 4.1rem;
+.fotoPerfil:hover {
+  width: 4.1rem;
+  height: 4.1rem;
 }
 /* inicio seccion about */
-.perfilAbout{
-    width: 10rem;
-    height: 10rem;
-    clip-path: polygon(25% 0, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+.perfilAbout {
+  width: 10rem;
+  height: 10rem;
+  clip-path: polygon(25% 0, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
 }
-.about-descripcion{
-    font-size: 1rem;
-    color: #cecccc;
-    text-align: center;
+.about-descripcion {
+  font-size: 1rem;
+  color: #cecccc;
+  text-align: center;
 }
-.skills-bar{
-    width: 600px;
-    height: 30px;
-    background: #ccff66;
-    filter: grayscale(0.2);
-    border-radius: 15px;
-    padding: 25px 30px;
-    box-shadow: 5px 5px 10px #cecccc;
-    margin-bottom: 15px;
-    margin-top: 30px;
+.skills-bar {
+  width: 600px;
+  height: 30px;
+  background: #ccff66;
+  filter: grayscale(0.2);
+  border-radius: 15px;
+  padding: 25px 30px;
+  box-shadow: 5px 5px 10px #cecccc;
+  margin-bottom: 15px;
+  margin-top: 30px;
 }
-.skills-bar:hover{
-    background: #ccff66;
-    filter: grayscale(0); 
-    filter: brightness(1);
-    border: #f1e8b8 2px solid;
+.skills-bar:hover {
+  background: #ccff66;
+  filter: grayscale(0);
+  filter: brightness(1);
+  border: #f1e8b8 2px solid;
 }
-.skills-bar .bar{
-    margin: 30px 0;
-
+.skills-bar .bar {
+  margin: 30px 0;
 }
-.skills-bar .bar:first-child{
-    margin-top: 0px;
+.skills-bar .bar:first-child {
+  margin-top: 0px;
 }
-.skills-bar .bar .info{
-    margin-bottom: 5px;
-
+.skills-bar .bar .info {
+  margin-bottom: 5px;
 }
-.skills-bar .bar .info span{
-font-size: 17px;
-font-weight: 500;
+.skills-bar .bar .info span {
+  font-size: 17px;
+  font-weight: 500;
 }
-.skills-bar .bar .progress-line{
-    position: relative;
-    height: 20px;
-    width: 100%;
-    display: block;
-    top: -40px;
+.skills-bar .bar .progress-line {
+  position: relative;
+  height: 20px;
+  width: 100%;
+  display: block;
+  top: -40px;
 }
-.bar .progress-line span{
-    width: 80%;
-    height: 100%;
-    background: #cecccc;
-    position: absolute;
-    border-radius: 15px;
-    display: block;
-    top: -40%;
+.bar .progress-line span {
+  width: 80%;
+  height: 100%;
+  background: #cecccc;
+  position: absolute;
+  border-radius: 15px;
+  display: block;
+  top: -40%;
 }
-.progress-line.html span{
-    width:95% ;
+.progress-line.html span {
+  width: 95%;
 }
-.progress-line.css span{
-    width:80% ;
+.progress-line.css span {
+  width: 80%;
 }
-.progress-line.flexbox span{
-    width:80%;
+.progress-line.flexbox span {
+  width: 80%;
 }
-.progress-line.bootstrap span{
-    width:75% ;
+.progress-line.bootstrap span {
+  width: 75%;
 }
-.progress-line.scrum span{
-    width:75% ;
+.progress-line.scrum span {
+  width: 75%;
 }
-.progress-line.Java span{
-    width:25% ;
+.progress-line.Java span {
+  width: 25%;
 }
 
-.bar .progress-line span::after{
-    position: absolute;
-    content: "80%";
-    right: -1%;
-    top: -0px;
-    color: #11151c;
-    font-size: 12px;
-    font-weight: bold;
-    background: #cecccc;
-    padding: 1px 8px;
-    border-radius: 15px;
+.bar .progress-line span::after {
+  position: absolute;
+  content: "80%";
+  right: -1%;
+  top: -0px;
+  color: #11151c;
+  font-size: 12px;
+  font-weight: bold;
+  background: #cecccc;
+  padding: 1px 8px;
+  border-radius: 15px;
 }
-.progress-line.html span::after{
-    content:"95%" ;
+.progress-line.html span::after {
+  content: "95%";
 }
-.progress-line.css span::after{
-    content:"80%" ;
-}
-
-.progress-line.flexbox span::after{
-    content:"80%" ;
+.progress-line.css span::after {
+  content: "80%";
 }
 
-.progress-line.bootstrap span::after{
-    content:"75%" ;
+.progress-line.flexbox span::after {
+  content: "80%";
 }
 
-.progress-line.scrum span::after{
-    content:"75%" ;
+.progress-line.bootstrap span::after {
+  content: "75%";
 }
 
-.progress-line.Java span::after{
-    content:"25%" ;
+.progress-line.scrum span::after {
+  content: "75%";
+}
+
+.progress-line.Java span::after {
+  content: "25%";
 }
 .eduexp .lista {
-    list-style: none;
-    border-left: 2px solid #ccff66;
-    padding-left: 10px;
-    margin-left: 10px;
+  list-style: none;
+  border-left: 2px solid #ccff66;
+  padding-left: 10px;
+  margin-left: 10px;
 }
-.eduexp .lista li{
-    position: relative;
-    display: block;
-    color: #cecccc;
-    padding: 15px 10px;
-    transition: 3s ease all;
+.eduexp .lista li {
+  position: relative;
+  display: block;
+  color: #cecccc;
+  padding: 15px 10px;
+  transition: 3s ease all;
+}
+.eduexp .lista li:hover {
+  color: #f1e8b8;
+}
+.eduexp .lista li::before {
+  content: " ";
+  display: block;
+  width: 12px;
+  height: 12px;
+  background: #ccff66;
+  border: 2px solid #040faf;
+  position: absolute;
+  left: -17px;
+  top: 19%;
+  transform: rotate(45deg);
+}
+.tituloedu-exp {
+  color: #cecccc;
+}
+/* inicio portfolio */
+.destino {
+  background: url(/img/destino.png);
+  width: 100%;
+  height: 400px;
+  filter: grayscale(1);
+}
+.destino:hover {
+  filter: grayscale(0);
+}
 
+.proyecto-numero{
+    font-size: 0.1px;
+    width: 120px;
+    height: 120px;
+       
+    
 }
-.eduexp .lista li:hover{
-    color: #f1e8b8;
+.proyecto-numero:hover{
+    color: #ccff66;
+    font-size: 100px;
+    width: 120px;
+    height: 120px;
+    background: #11151c;
+    display: flex;
+    align-content: center;
+    text-align: center;
+    
 }
-.eduexp .lista li::before{
-content: " ";
-display: block;
-width: 12px;
-height: 12px;
-background: #ccff66;
-border: 2px solid #040faf;
-position: absolute;
-left: -17px;
-top: 19%;
-transform: rotate(45deg);
-}
-.tituloedu-exp{
 
-color: #cecccc;
+.destino-descripcion {
+  padding-top: 35px;
+  padding-left: 15px;
+  position: absolute;
+  bottom: -50px;
+  width: 200px;
+  height: 200px;
+  background: #040faf;
+  color: #cecccc;
+}
+.card-link {
+  text-decoration: none;
+}
+.boton-destino {
+  height: 5px;
+  text-align: center;
+  align-content: center;
+  background: #ccff66;
+  filter: grayscale(0.2);
+  border-radius: 15px;
+  padding: 20px 50px;
+  box-shadow: 3px 3px 5px #cecccc;
+}
+.tatoo {
+  background: url(/img/tatoo.png);
+  width: 100%;
+  height: 400px;
+  filter: grayscale(1);
+}
+.tatoo:hover {
+  filter: grayscale(0);
+}
+
+.tatoo-descripcion {
+  padding-top: 35px;
+  padding-left: 15px;
+  position: absolute;
+  bottom: -50px;
+  width: 200px;
+  height: 200px;
+  background: #040faf;
+  color: #cecccc;
+}
+.card-link {
+  text-decoration: none;
+}
+.boton-tatoo {
+  height: 5px;
+  text-align: center;
+  align-content: center;
+  background: #ccff66;
+  filter: grayscale(0.2);
+  border-radius: 15px;
+  padding: 20px 50px;
+  box-shadow: 3px 3px 5px #cecccc;
+}
+.trap {
+  background: url(/img/trap.png);
+  width: 100%;
+  height: 400px;
+  filter: grayscale(1);
+}
+.trap:hover {
+  filter: grayscale(0);
+}
+
+
+.trap-descripcion {
+  padding-top: 35px;
+  padding-left: 15px;
+  position: absolute;
+  bottom: -50px;
+  width: 200px;
+  height: 200px;
+  background: #040faf;
+  color: #cecccc;
+}
+.card-link {
+  text-decoration: none;
+}
+.boton-trap {
+  height: 5px;
+  text-align: center;
+  align-content: center;
+  background: #ccff66;
+  filter: grayscale(0.2);
+  border-radius: 15px;
+  padding: 20px 50px;
+  box-shadow: 3px 3px 5px #cecccc;
 }
