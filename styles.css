@@ -301,6 +301,19 @@
   box-shadow: 3px 3px 5px #cecccc;
   font-family: Helvetica, sans-serif;
 }
+.group__title{
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+  color: #cecccc;
+ }
+.group__title:hover{
+  font-style: italic;
+   }
+  h5{
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+  color: #cecccc;
+  } 
 /* estilos footer */
 .boton-flotante{
     position: relative;
