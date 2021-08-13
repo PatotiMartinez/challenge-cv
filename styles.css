@@ -270,13 +270,13 @@
   font-family: Helvetica, sans-serif;
 }
 .boton-tatoo {
-  height: 5px;
+  height: 3px;
   text-align: center;
   align-content: center;
   background: #ccff66;
   filter: grayscale(0.2);
   border-radius: 15px;
-  padding: 20px 50px;
+  padding: 25px 50px;
   box-shadow: 3px 3px 5px #cecccc;
   font-family: Helvetica, sans-serif;
 }
@@ -308,41 +308,39 @@
  }
 .group__title:hover{
   font-style: italic;
-   }
+}
   h5{
   font-family: Helvetica, sans-serif;
   font-weight: bold;
   color: #cecccc;
-  } 
+} 
 /* estilos footer */
 .boton-flotante{
     position: relative;
-  }
- .boton-flotante .navbar{
+}
+.boton-flotante .navbar{
     position: absolute;
     width: 100%;
     top: -135px;
     transform: scale(1, 0);
     transform-origin: bottom;
     transition: transform 100ms ease-in-out;
-  }
+}
   
-  .boton-flotante .navbar  a {
+.boton-flotante .navbar  a {
     opacity: 0;
-  }
-  .navbar-checkbox{
-    display: none;
-  }
-  .navbar-checkbox:checked ~ .navbar{
+}
+.navbar-checkbox{
+  display: none;
+}
+.navbar-checkbox:checked ~ .navbar{
     transform: scale(1, 1);
-  }
-  
-  .navbar-checkbox:checked ~ nav a {
+}
+.navbar-checkbox:checked ~ nav a {
     opacity: 1;
     transition: opacity 250ms ease-in-out;
-  }
-  
-  .boton-nav-flotante{
+}
+.boton-nav-flotante{
     position: absolute;
     right: 2em;
     margin-top: 0.5em;
@@ -359,14 +357,14 @@
     place-items: center;
     cursor: pointer;
     z-index: 10000;
-  }
-  footer {
+}
+footer {
     height: 200px;
     position: relative;
     overflow: hidden;
     font-family: Helvetica, sans-serif;
     font-weight: 500;
-  }
+}
   footer p{
     font-family: Helvetica, sans-serif;
     font-weight: bolder;
@@ -456,7 +454,7 @@
     }
   }
   
-  @media (min-width: 761px) {
-    .triangulo {
-      clip-path: polygon(100% 0, 100% 8%, 35% 100%, 0 100%, 0 0);
-    }
+@media (min-width: 761px) {
+  .triangulo {
+    clip-path: polygon(100% 0, 100% 8%, 35% 100%, 0 100%, 0 0);
+}
