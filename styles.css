@@ -2,12 +2,14 @@
   background-color: #11151c;
 }
 .hr {
-  color: turquoise;
+  color: #ccff66;
   size: 3px;
+  font-weight: 500;
 }
 .navbar {
   background-color: #11151c;
   color: #cecccc;
+  font-family: Helvetica, sans-serif;
   text-decoration: none;
   box-shadow: 1px 1px 3px #ccff66;
 }
@@ -19,6 +21,9 @@
   font-size: 2rem;
   color: #cecccc;
   text-decoration: none;
+}
+.navbar-toggler{
+    color: #cecccc;
 }
 .fotoPerfil {
   width: 4rem;
@@ -35,11 +40,20 @@
   width: 10rem;
   height: 10rem;
   clip-path: polygon(25% 0, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+  border: #ccff66 2px solid;
+  box-shadow: 1px 1px 3px #cecccc;
+  padding-bottom: 2px;
+ }
+.perfilAbout:hover{
+    width: 10.1rem;
+    height: 10.1rem;
 }
 .about-descripcion {
   font-size: 1rem;
   color: #cecccc;
   text-align: center;
+  padding-top: 2px;
+  font-family: Helvetica, sans-serif;
 }
 .skills-bar {
   width: 600px;
@@ -51,6 +65,7 @@
   box-shadow: 5px 5px 10px #cecccc;
   margin-bottom: 15px;
   margin-top: 30px;
+  font-family: Helvetica, sans-serif;
 }
 .skills-bar:hover {
   background: #ccff66;
@@ -70,6 +85,7 @@
 .skills-bar .bar .info span {
   font-size: 17px;
   font-weight: 500;
+  font-family: Helvetica, sans-serif;
 }
 .skills-bar .bar .progress-line {
   position: relative;
@@ -145,6 +161,7 @@
   border-left: 2px solid #ccff66;
   padding-left: 10px;
   margin-left: 10px;
+  font-family: Helvetica, sans-serif;
 }
 .eduexp .lista li {
   position: relative;
@@ -170,24 +187,28 @@
 }
 .tituloedu-exp {
   color: #cecccc;
+  font-family: Helvetica, sans-serif;
 }
 /* inicio portfolio */
+.card{
+    background: #11151c;
+    font-family: Helvetica, sans-serif;
+}
 .destino {
   background: url(/img/destino.png);
   width: 100%;
   height: 400px;
   filter: grayscale(1);
+  font-family: Helvetica, sans-serif;
 }
 .destino:hover {
   filter: grayscale(0);
 }
-
 .proyecto-numero{
     font-size: 0.1px;
     width: 120px;
     height: 120px;
-       
-    
+    font-family: Helvetica, sans-serif;
 }
 .proyecto-numero:hover{
     color: #ccff66;
@@ -198,24 +219,21 @@
     display: flex;
     align-content: center;
     text-align: center;
-    
 }
-
 .destino-descripcion {
   padding-top: 35px;
   padding-left: 15px;
   position: absolute;
-  bottom: -50px;
+  bottom: -12px;
   width: 200px;
-  height: 200px;
-  background: #040faf;
-  color: #cecccc;
-}
-.card-link {
-  text-decoration: none;
+  height: auto;
+  background: #cecccc;
+  color: #11151c;
+  box-shadow: 3px 3px 5px #cecccc;
+  font-family: Helvetica, sans-serif;
 }
 .boton-destino {
-  height: 5px;
+  height: 3px;
   text-align: center;
   align-content: center;
   background: #ccff66;
@@ -223,6 +241,7 @@
   border-radius: 15px;
   padding: 20px 50px;
   box-shadow: 3px 3px 5px #cecccc;
+  font-family: Helvetica, sans-serif;
 }
 .tatoo {
   background: url(/img/tatoo.png);
@@ -230,22 +249,25 @@
   height: 400px;
   filter: grayscale(1);
 }
+.tatoo-descripcion{
+    padding-top: 35px;
+    padding-left: 15px;
+    position: absolute;
+    bottom: -12px;
+    right: 15px;
+    width: 200px;
+    height: auto;
+    background: #cecccc;
+    color: #11151c;
+    box-shadow: 3px 3px 5px #cecccc;  
+    font-family: Helvetica, sans-serif;
+}
 .tatoo:hover {
   filter: grayscale(0);
 }
-
-.tatoo-descripcion {
-  padding-top: 35px;
-  padding-left: 15px;
-  position: absolute;
-  bottom: -50px;
-  width: 200px;
-  height: 200px;
-  background: #040faf;
-  color: #cecccc;
-}
 .card-link {
   text-decoration: none;
+  font-family: Helvetica, sans-serif;
 }
 .boton-tatoo {
   height: 5px;
@@ -256,30 +278,17 @@
   border-radius: 15px;
   padding: 20px 50px;
   box-shadow: 3px 3px 5px #cecccc;
+  font-family: Helvetica, sans-serif;
 }
 .trap {
   background: url(/img/trap.png);
   width: 100%;
   height: 400px;
   filter: grayscale(1);
+  font-family: Helvetica, sans-serif;
 }
 .trap:hover {
   filter: grayscale(0);
-}
-
-
-.trap-descripcion {
-  padding-top: 35px;
-  padding-left: 15px;
-  position: absolute;
-  bottom: -50px;
-  width: 200px;
-  height: 200px;
-  background: #040faf;
-  color: #cecccc;
-}
-.card-link {
-  text-decoration: none;
 }
 .boton-trap {
   height: 5px;
@@ -290,4 +299,151 @@
   border-radius: 15px;
   padding: 20px 50px;
   box-shadow: 3px 3px 5px #cecccc;
+  font-family: Helvetica, sans-serif;
 }
+/* estilos footer */
+.boton-flotante{
+    position: relative;
+  }
+ .boton-flotante .navbar{
+    position: absolute;
+    width: 100%;
+    top: -135px;
+    transform: scale(1, 0);
+    transform-origin: bottom;
+    transition: transform 100ms ease-in-out;
+  }
+  
+  .boton-flotante .navbar  a {
+    opacity: 0;
+  }
+  .navbar-checkbox{
+    display: none;
+  }
+  .navbar-checkbox:checked ~ .navbar{
+    transform: scale(1, 1);
+  }
+  
+  .navbar-checkbox:checked ~ nav a {
+    opacity: 1;
+    transition: opacity 250ms ease-in-out;
+  }
+  
+  .boton-nav-flotante{
+    position: absolute;
+    right: 2em;
+    margin-top: 0.5em;
+    height: 2em;
+    width: 2em;
+    font-size: 1.5em;
+    border: #ccff66 2px solid;
+    border-radius: 25em;
+    background-color:#11151c;
+    background-blend-mode:  difference;
+    color: #fff;
+    box-shadow: 0 0 2em rgba(0, 0, 0, .5);
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+    z-index: 10000;
+  }
+  footer {
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+    font-family: Helvetica, sans-serif;
+    font-weight: 500;
+  }
+  footer p{
+    font-family: Helvetica, sans-serif;
+    font-weight: bolder;
+    
+  }
+ #botonArriba{
+    position: absolute;
+    height: 3em;
+    width: 3em;
+    font-size: 1em;
+    text-decoration: none;
+    color: #11151c;
+    filter: grayscale(0.8);
+    background-color: #ccff66;
+    border:#11151c 1px solid ;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    right: 4em;
+    bottom: 0;
+    z-index: 10000;
+  }
+  #botonArriba:hover{
+    height: 3.1em;
+    width: 3.1em;
+  }
+   footer .redes a {
+    background: #11151c;
+    color: #ccff66;
+    border:#ccff66 1px solid ;
+    border-radius: 60%;
+    font-size: 2em;
+    margin: 2px;
+    padding: 0 0.5em;
+    z-index: 999;
+  }
+  footer .redes a:hover{
+      color: #ccff66;
+      font-size: 3.2em;
+  }
+  .lista-redes{
+      padding-left: 3px;
+  }
+  .trianguloArriba {
+    background: #11151c;
+    clip-path: polygon(100% 0, 100% 8%, 35% 100%, 0 100%, 0 0);
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 160vw;
+    transition: all ease 1s;
+    z-index: -100;
+    font-family: Helvetica, sans-serif;
+  }
+  
+  .trianguloAbajo {
+    background: linear-gradient(270deg, #cecccc, #ccff66);
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 110%;
+    left: -30px;
+    transition: all ease 1s;
+    z-index: -200;
+    font-family: Helvetica, sans-serif;
+  }
+ footer img {
+    height: 4em;
+    width: 4em;
+    border-radius: 50%;
+    margin-bottom: 0.3em;
+    
+  }
+  footer img:hover {
+    height: 4.2em;
+    width: 4.2em;
+    border-radius: 50%;
+    margin-bottom: 0.3em;
+    border:#ccff66 1px solid ;
+ }
+  
+  
+  
+  @media (max-width: 760px) {
+    .triangulo {
+      clip-path: polygon(100% 0, 100% 0%, 0% 50%, 0% 0%, 0 0);
+    }
+  }
+  
+  @media (min-width: 761px) {
+    .triangulo {
+      clip-path: polygon(100% 0, 100% 8%, 35% 100%, 0 100%, 0 0);
+    }

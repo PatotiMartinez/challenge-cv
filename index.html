@@ -9,9 +9,10 @@
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/d04c950c9d.js" crossorigin="anonymous"></script>
   <title>CV | Patricia Martinez</title>
 </head>
-
 <body class="cv">
   <!-- inicio Navbar -->
   <nav class=" navbar navbar-expand-lg sticky-top ">
@@ -43,10 +44,10 @@
   <!-- fin Navbar -->
   <hr class="hr">
   <!-- inicio About -->
-  <div id="about" class="container-fluid d-flex align-items-center justify-content-center">
+  <div id="about" class="container-fluid  d-flex align-items-center justify-content-center">
     <!-- columna 1 de 2 about-->
-    <div class="row col-12 col-md-6 d-flex align-items-center justify-content-center">
-      <div class="about-descripcion col-6">
+    <div class="row col-sm-12 col-md-6 d-flex align-items-center justify-content-center">
+      <div class="about-descripcion col-6 ">
         <img class="perfilAbout" src="/img/patricia.jpg" alt="fotoPerfil">
         <h4>Patricia Martinez</h4>
         <span>Soy una dev entusiasta, me gustan los desafíos y trabajar en equipo,
@@ -55,8 +56,8 @@
       </div>
     </div>
     <!-- columna 2 de 2 about -->
-    <div class="container-fluid d-flex align-items-center justify-content-center">
-      <div class="row d-flex align-items-center justify-content-center">
+    <div class="container-fluid  d-flex align-items-center justify-content-center">
+      <div class="row col-12 col-md-6 d-flex align-items-center justify-content-center">
         <div class="skills-bar">
           <div class="bar">
             <div class="info">
@@ -112,8 +113,8 @@
   <!-- fin About -->
   <hr class="hr">
   <!-- inicio educacion y experiencia -->
-  <div id="eduexp" class="div container-fluid d-flex align-items-center justify-content-center">
-    <div class="eduexp row d-flex align-items-center justify-content-center">
+  <div id="eduexp" class="div container-fluid  d-flex align-items-center justify-content-center">
+    <div class="eduexp row col-sm-12 col-md-6 d-flex align-items-center justify-content-center">
       <h1 class="tituloedu-exp">Educación</h1>
       <ul class="lista">
         <li>
@@ -136,7 +137,7 @@
         </li>
       </ul>
     </div>
-    <div class="eduexp row d-flex align-items-center justify-content-center ">
+    <div class="eduexp row col-sm-12 col-md-6 d-flex align-items-center justify-content-center ">
       <h1 class="tituloedu-exp">Experiencia</h1>
       <ul class="lista">
         <li>
@@ -160,8 +161,8 @@
   <!-- fin educacion y experiencia -->
   <hr class="hr">
   <!-- inicio portfolio -->
-  <section class="portfolio row mx-0" id="portfolio">
-    <div class="card" style="width: 100%;">
+  <section class="portfolio row mx-0 pb-5" id="portfolio">
+    <div class="card bg-dark pb-5" style="width: 100%;">
       <div class="card-body destino w-100">
         <div class="destino-descripcion">
           <h5 class="card-title pt-10">Destino Tucumán</h5>
@@ -174,9 +175,9 @@
         </div>
       </div>
     </div>
-    <div class="card" style="width: 100%;">
+    <div class="card pb-5" style="width: 100%;">
       <div class="card-body tatoo w-100">
-        <div class="destino-descripcion">
+        <div class="tatoo-descripcion ">
           <h5 class="card-title pt-10">Skull Tatoo</h5>
           <h6 class="card-subtitle mb-2 text-muted">Javascript</h6>
           <button class="boton-tatoo d-flex  align-content-center align-items-center "><a
@@ -187,9 +188,9 @@
         </div>
       </div>
     </div>
-    <div class="card" style="width: 100%;">
+    <div class="card pb-5" style="width: 100%;">
       <div class="card-body trap w-100">
-        <div class="trap-descripcion">
+        <div class="destino-descripcion">
           <h5 class="card-title pt-10">Mucho Trap</h5>
           <h6 class="card-subtitle mb-2 text-muted">Proyecto Final</h6>
           <button class="boton-trap d-flex  align-content-center align-items-center "><a href="https://muchotrap.com/"
@@ -204,19 +205,43 @@
   <!-- fin portfolio -->
   <hr class="hr">
   <!-- inicio footer -->
-  <section class="footer">
-
-  </section>
-  <!-- fin footer -->
-
-
-
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+  <div class="boton-flotante">
+    <input type="checkbox" id="navbar-checkbox" name="navbar-checkbox" class="navbar-checkbox">
+    <label class="boton-nav-flotante" for="navbar-checkbox">
+      <i class="fas fa-grip-lines"></i>
+    </label> 
+    <nav class="navbar navbar-dark bg-dark">
+      <ul class="navbar-nav ms-auto text-end  me-4">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li>
+          <a href="#eduexp" class="nav-link">Educación y Experiencia</a>
+        </li>
+        <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+      </ul>
+    </nav>     
+  </div>  
+  <footer class="row">          
+    <div class="botonArriba" id="botonArriba"><a class="botonArriba text-decoration-none" href="#"><i class="fas  fa-arrow-circle-up"></i></a>
+    </div>
+   <div class="redes col-md-6 d-flex justify-content-center align-items-center">
+      <div class="trianguloArriba"></div>
+      <div class="lista-redes"><a href="https://www.instagram.com/patoti/?hl=es-la" target="_blank"><i class="fab fa-instagram-square"></i></a>
+        <a href="https://api.whatsapp.com/send?phone=5493813002350" target="_blank"><i class="fab fa-whatsapp-square"></i></a>
+        <a href="https://github.com/PatotiMartinez" target="_blank" ><i class="fab fa-github-square"></i></a>
+      </div>
+    </div>
+    <div class="info col-md-6 d-flex justify-content-center flex-column text-center">
+      <div class="trianguloAbajo"></div>
+      <div class="infoLogo">
+        <img src="img/logopm.png" alt="Logofooter" />
+        <p><i class="fas fa-copyright"></i>Derechos Reservados</p>
+        <p>Patricia Martinez</p>
+      </div>
+    </div>
+  </footer>
+<!-- fin footer -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
-
-
 </body>
-
 </html>
