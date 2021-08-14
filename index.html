@@ -15,15 +15,15 @@
 </head>
 <body class="cv">
   <!-- inicio Navbar -->
-  <nav class=" navbar navbar-expand-lg sticky-top ">
+  <nav class=" navbar navbar-expand-lg navbar-dark sticky-top ">
     <div class="container-fluid">
-      <a class="navbar-brand" href="index.html"> <img class="fotoPerfil" src="/img/patricia.jpg"
-          alt="fotoPerfilPatricia"> Patricia Martinez</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <a class="navbar-brand " href="index.html">
+         <img class="fotoPerfil " src="img/patricia.jpg" alt="fotoPerfilPatricia">
+          Patricia Martinez  </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#toggleMobileMenu" aria-controls="toggleMobileMenu" aria-expanded="true" aria-lable="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse " id="navbarNav">
+      <div class="navbar-collapse collapse show" id="toggleMobileMenu" >
         <ul class="navbar-nav ms-auto text-center">
           <li class="nav-item">
             <a class=" navbar-brand nav-link" href="#about">About</a>
@@ -35,7 +35,7 @@
             <a class=" navbar-brand nav-link" href="#portfolio">Portfolio</a>
           </li>
           <li class="nav-item ">
-            <a class="navbar-brand nav-link active " aria-current="page" href="#servicios">Servicios</a>
+            <a class="navbar-brand nav-link " aria-current="page" href="#servicios">Servicios</a>
           </li>
         </ul>
       </div>
@@ -46,20 +46,19 @@
   <!-- inicio About -->
   <div class="row d-flex justify-content-center align-content-center ">
     <!-- columna 1 de 2 about--> 
-    <div id="about" class="container-fluid  d-flex align-items-center justify-content-center">
-      <div class=" row col-6 col-sm-12 col-md-6 d-flex align-items-center justify-content-center">
+    <div id="about" class="col-12 col-lg-6 container-fluid  d-flex align-items-center justify-content-center">
+      <div class="d-flex align-items-center justify-content-center">
         <div class="about-descripcion ">
-         <img class="perfilAbout" src="/img/patricia.jpg" alt="fotoPerfil">
-         <h4>Patricia Martinez</h4>
-         <span>Soy una dev entusiasta, me gustan los desafíos y trabajar en equipo,
-          mis habilidades son la investigación, y el análisis, mis hobbies son el diseño y la
-          fotografía. </span>
+         <img class="perfilAbout " src="img/patricia.jpg" alt="fotoPerfil">
+         <h4 class="pato pt-3">Patricia Martinez</h4>
+         <p>Soy una dev entusiasta, me gustan los desafíos y trabajar en equipo,mis habilidades son la investigación,
+            y el análisis, mis hobbies son el diseño y la fotografía. </p>
        </div>
       </div>
-    <!-- columna 2 de 2 about -->
-    
-      <div class="container-fluid  d-flex align-items-center justify-content-center">
-      <div class="row col-6 col-sm-12 col-md-6 d-flex align-items-center justify-content-center">
+    </div>  
+    <!-- columna 2 de 2 about -->    
+    <div class="container-fluid col-12 col-lg-6   d-flex align-items-center justify-content-center">
+      <div class="lista-skill">
         <div class="skills-bar">
           <div class="bar">
             <div class="info">
@@ -108,16 +107,14 @@
             <div class="progress-line Java"><span></span></div>
           </div>
         </div><br>
-      </div>
-      </div>
-      
+      </div>  
     </div>
-</div>
+  </div>
  <!-- fin About -->
   <hr class="hr">
   <!-- inicio educacion y experiencia -->
-  <div id="eduexp" class="div container-fluid  d-flex align-items-center justify-content-center">
-    <div class="eduexp row col-sm-12 col-md-6 d-flex ">
+  <div id="eduexp" class="div container-fluid d-block d-flex justify-content-center row">
+    <div class="eduexp col-12 col-md-6 d-md-flex align-items-center justify-content-center">
       <h1 class="tituloedu-exp">Educación</h1>
       <ul class="lista">
         <li>
@@ -140,7 +137,7 @@
         </li>
       </ul>
     </div>
-    <div class="eduexp row col-sm-12 col-md-6 d-flex align-items-center justify-content-center ">
+    <div class="eduexp col-12 col-md-6 d-block d-md-flex align-items-center justify-content-center">
       <h1 class="tituloedu-exp">Experiencia</h1>
       <ul class="lista">
         <li>
@@ -183,7 +180,7 @@
         <div class="tatoo-descripcion ">
           <h5 class="card-title text-dark pt-10">Skull Tatoo</h5>
           <h6 class="card-subtitle mb-2 text-muted">Javascript</h6>
-          <button class="boton-tatoo d-ftext-dark lex  align-content-center align-items-center "><a
+          <button class="boton-tatoo text-dark d-flex  align-content-center align-items-center "><a
               href="http://www.skulltattoo.com.ar/" target="_blank" class="card-link">Ingresa</a></button>
         </div>
         <div class="proyecto d-flex ms-auto align-content-center align-items-center">
