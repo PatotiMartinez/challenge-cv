@@ -199,7 +199,7 @@
   font-family: Helvetica, sans-serif;
 }
 .destino {
-  background: url(/img/destino.png);
+  background: url(img/destino.png);
   width: 100%;
   height: 400px;
   filter: grayscale(1);
@@ -248,7 +248,7 @@
   font-family: Helvetica, sans-serif;
 }
 .tatoo {
-  background: url(/img/tatoo.png);
+  background: url(img/tatoo.png);
   width: 100%;
   height: 400px;
   filter: grayscale(1);
@@ -285,7 +285,7 @@
   font-family: Helvetica, sans-serif;
 }
 .trap {
-  background: url(/img/trap.png);
+  background: url(img/trap.png);
   width: 100%;
   height: 400px;
   filter: grayscale(1);
