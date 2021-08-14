@@ -23,7 +23,7 @@
   text-decoration: none;
 }
 .navbar-toggler{
-    color: #cecccc;
+  color: #cecccc;
 }
 .fotoPerfil {
   width: 4rem;
@@ -55,8 +55,12 @@
   padding-top: 2px;
   font-family: Helvetica, sans-serif;
 }
+.about-descripcion p{
+  width: 80%;
+  margin: 0 auto;
+}
 .skills-bar {
-  width: 600px;
+  width: 500px;
   height: 30px;
   background: #ccff66;
   filter: grayscale(0.2);
@@ -191,8 +195,8 @@
 }
 /* inicio portfolio */
 .card{
-    background: #11151c;
-    font-family: Helvetica, sans-serif;
+  background: #11151c;
+  font-family: Helvetica, sans-serif;
 }
 .destino {
   background: url(/img/destino.png);
@@ -205,20 +209,20 @@
   filter: grayscale(0);
 }
 .proyecto-numero{
-    font-size: 0.1px;
-    width: 120px;
-    height: 120px;
-    font-family: Helvetica, sans-serif;
+  font-size: 0.1px;
+  width: 120px;
+  height: 120px;
+  font-family: Helvetica, sans-serif;
 }
 .proyecto-numero:hover{
-    color: #ccff66;
-    font-size: 100px;
-    width: 120px;
-    height: 120px;
-    background: #11151c;
-    display: flex;
-    align-content: center;
-    text-align: center;
+  color: #ccff66;
+  font-size: 100px;
+  width: 120px;
+  height: 120px;
+  background: #11151c;
+  display: flex;
+  align-content: center;
+  text-align: center;
 }
 .destino-descripcion {
   padding-top: 35px;
@@ -250,17 +254,17 @@
   filter: grayscale(1);
 }
 .tatoo-descripcion{
-    padding-top: 35px;
-    padding-left: 15px;
-    position: absolute;
-    bottom: -12px;
-    right: 15px;
-    width: 200px;
-    height: auto;
-    background: #cecccc;
-    color: #11151c;
-    box-shadow: 3px 3px 5px #cecccc;  
-    font-family: Helvetica, sans-serif;
+  padding-top: 35px;
+  padding-left: 15px;
+  position: absolute;
+  bottom: -12px;
+  right: 15px;
+  width: 200px;
+  height: auto;
+  background: #cecccc;
+  color: #11151c;
+  box-shadow: 3px 3px 5px #cecccc;  
+  font-family: Helvetica, sans-serif;
 }
 .tatoo:hover {
   filter: grayscale(0);
@@ -309,22 +313,22 @@
 .group__title:hover{
   font-style: italic;
 }
-  h5{
+h5{
   font-family: Helvetica, sans-serif;
   font-weight: bold;
   color: #cecccc;
 } 
 /* estilos footer */
 .boton-flotante{
-    position: relative;
+  position: relative;
 }
 .boton-flotante .navbar{
-    position: absolute;
-    width: 100%;
-    top: -135px;
-    transform: scale(1, 0);
-    transform-origin: bottom;
-    transition: transform 100ms ease-in-out;
+  position: absolute;
+  width: 100%;
+  top: -200px;
+  transform: scale(1, 0);
+  transform-origin: bottom;
+  transition: transform 100ms ease-in-out;
 }
   
 .boton-flotante .navbar  a {
@@ -342,7 +346,7 @@
 }
 .boton-nav-flotante{
     position: absolute;
-    right: 2em;
+    right: 1em;
     margin-top: 0.5em;
     height: 2em;
     width: 2em;
@@ -383,7 +387,7 @@ footer {
     border-radius: 50%;
     display: grid;
     place-items: center;
-    right: 4em;
+    right: 2.4em;
     bottom: 0;
     z-index: 10000;
   }
@@ -394,16 +398,15 @@ footer {
    footer .redes a {
     background: #11151c;
     color: #ccff66;
-    border:#ccff66 1px solid ;
     border-radius: 60%;
-    font-size: 2em;
+    font-size: 3em;
     margin: 2px;
     padding: 0 0.5em;
     z-index: 999;
   }
   footer .redes a:hover{
-      color: #ccff66;
-      font-size: 3.2em;
+    font-size: 3.2em;
+    color: #cecccc;
   }
   .lista-redes{
       padding-left: 3px;
@@ -432,29 +435,31 @@ footer {
     font-family: Helvetica, sans-serif;
   }
  footer img {
-    height: 4em;
     width: 4em;
     border-radius: 50%;
     margin-bottom: 0.3em;
+    transition: all 1s ease ;
     
   }
   footer img:hover {
-    height: 4.2em;
-    width: 4.2em;
+    transform: scale(1.2);
     border-radius: 50%;
     margin-bottom: 0.3em;
     border:#ccff66 1px solid ;
  }
   
+.infoLogo p{
+  color: #fff;
+}  
   
-  
-  @media (max-width: 760px) {
-    .triangulo {
-      clip-path: polygon(100% 0, 100% 0%, 0% 50%, 0% 0%, 0 0);
+@media (max-width: 760px) {
+.triangulo {
+    clip-path: polygon(100% 0, 100% 0%, 0% 50%, 0% 0%, 0 0);
     }
   }
   
 @media (min-width: 761px) {
   .triangulo {
     clip-path: polygon(100% 0, 100% 8%, 35% 100%, 0 100%, 0 0);
+  }
 }
